@@ -18,7 +18,7 @@
                     <p class="text-gray-700"><strong>Preu:</strong> {{ $cotxe->price }}</p>
                 </div>
                 <div class="mb-4">
-                    <p class="text-gray-700"><strong>Descripció:</strong> {{ $cotxe->description }}</p>
+                    <p class="text-gray-700"><strong>categoria:</strong> {{ $cotxe->categoria }}</p>
                 </div>
                 <div class="flex justify-end">
                     <a class="bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded" href="{{ route('cotxes.index') }}">Back to List</a>
